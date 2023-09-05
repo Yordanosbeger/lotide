@@ -1,20 +1,21 @@
 # Lotide
- A mini clone of the [Lodash] library.
+ 
+ A mini clone of the [Lodash](https://lodash.com) library.
  ## Purpose
- ####BEWARE: This library was created for educational purposes and is not intended for use in production-grade software.
+ **_BEWARE:_ This library was created for educational purposes and is not intended for use in production-grade software.
 
  I created and shared this project as part of my educational experience at Lighthouse Labs.
  
 
  ##Usage
 
- Install it:
+ **Install it:**
  >npm install @Yordanosbeger/lotide
 
- Require it:
+ **Require it:**
  >const _ = require('@Yordanosbeger/lotide');
 
- Call it:
+ **Call it:**
  > const results = _.tail([1,2,3])
  // => [2, 3]
 
@@ -32,4 +33,4 @@
  >* function7(without):function that takes in a source array and an itemsToRemove arrays and returns only the items from the source array that are not in the itemsToRemove array.  
 
  >* function8(flatten): function that takes in an array that contains elements including nested array of elements and returns a flattened version of the array.
-  
+
