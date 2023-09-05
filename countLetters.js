@@ -1,0 +1,19 @@
+// countLetters function implementation
+
+const countLetters = function(sentence) {
+  const letterCount = {};
+
+  for (const letter of sentence) {
+    if (letter !== ' ') {
+      if (letterCount[letter]) {
+        letterCount[letter] += 1;
+      } else {
+        letterCount[letter] = 1;
+      }
+    }
+  }
+
+  return letterCount;
+};
+
+
