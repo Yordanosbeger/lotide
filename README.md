@@ -24,8 +24,8 @@
 
  >* function 1(assertArraysEqual): function that prints an approprite message after comparing the two arrays.
  >* function2(assertEqual):
- function that takes in 2 values ans returns true if they are equal , otherwise false.
- >* function3(eqArrays): function that takes  in 2 arrays and returns  true if the arrays are equal ,otherwise false.
+ function that takes in 2 values ans returns true if they are equal and false otherwise 
+ >* function3(eqArrays): function that takes  in 2 arrays and returns  true if the arrays are equal and false otherwise 
  >* function4(head): function that takes in an array and returns the first element in the array.
  >*  function5(middle):
  function that takes in an array and returns middle most element of array.
