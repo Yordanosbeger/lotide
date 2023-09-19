@@ -1,3 +1,4 @@
+
 const eqArrays = require('./eqArrays');
 
 const assertArraysEqual = function(arr1, arr2) {
@@ -7,5 +8,5 @@ const assertArraysEqual = function(arr1, arr2) {
     console.log("❌ Assertion Failed: Arrays are not equal");
   }
 };
+ module.exports = assertArraysEqual;
 
-module.exports = assertArraysEqual;
