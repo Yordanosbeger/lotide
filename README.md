@@ -9,28 +9,34 @@
 
  ##Usage
 
- **Install it:**
- >npm install @Yordanosbeger/lotide
+ # Lotide
 
- **Require it:**
- >const _ = require('@Yordanosbeger/lotide');
+A mini clone of the [Lodash](https://lodash.com) library.
 
- **Call it:**
- > const results = _.tail([1,2,3])
- // => [2, 3]
+## Purpose
 
- ## Documentation
- the following functions are currently implemented:
+**_BEWARE:_ This library was published for learning purposes. It is _not_ intended for use in production-grade software.**
 
- >* function 1(assertArraysEqual): function that prints an approprite message after comparing the two arrays.
- >* function2(assertEqual):
- function that takes in 2 values ans returns true if they are equal and false otherwise 
- >* function3(eqArrays): function that takes  in 2 arrays and returns  true if the arrays are equal and false otherwise 
- >* function4(head): function that takes in an array and returns the first element in the array.
- >*  function5(middle):
- function that takes in an array and returns middle most element of array.
- >* function6(tail): function that takes in an array and returns everything except the first element of the array.
- >* function7(without):function that takes in a source array and an itemsToRemove arrays and returns only the items from the source array that are not in the itemsToRemove array.  
+This project was created and published by me as part of my learnings at Lighthouse Labs. 
 
- >* function8(flatten): function that takes in an array that contains elements including nested array of elements and returns a flattened version of the array.
+## Usage
 
+**Install it:**
+
+`npm install @username/lotide`
+
+**Require it:**
+
+`const _ = require('@username/lotide');`
+
+**Call it:**
+
+`const results = _.tail([1, 2, 3]) // => [2, 3]`
+
+## Documentation
+
+The following functions are currently implemented:
+
+* `function1(...)`: description
+* `function2(...)`: description
+* `function3(...)`: description

@@ -16,11 +16,5 @@ const middle = function(array) {
   }
 };
 
-// Test cases
-console.log(middle([1])); // Should output: []
-console.log(middle([1, 2])); // Should output: []
-console.log(middle([1, 2, 3,4])); // Should output: [2]
-console.log(middle([1, 2, 3, 4, 5])); // Should output: [3]
-
 module.exports = middle;
 

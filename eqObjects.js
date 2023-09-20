@@ -26,10 +26,7 @@ const eqObjects = function(object1, object2) {
   return true;
 };
 
-// Example usage:
-const obj1 = { a: [1, 2, 3], b: "hello" };
-const obj2 = { a: [1, 2, 3], b: "hello" };
-console.log(eqObjects(obj1, obj2)); 
+ 
 module.exports = eqObjects;
 
 
