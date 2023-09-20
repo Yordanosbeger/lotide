@@ -52,5 +52,5 @@ The following functions are currently implemented:
 * `function13(eqObjects)`: function that takes in 2 objects and return true if they are equal and false otherwise
 * `function14(assertObjectequal)`: function that takes in 2 objects and returns true if they are equal and false otherwise
 * `function15(map)`: function that takes in an array and a callback and returns a new array based on the results of the callback on each item in the array
-*`function16(takeUnit)`: function that takes in an array and callback and returns a slice of the array based on the criteria specified in the callback
+* `function16(takeUnit)`: function that takes in an array and  callback and returns a slice of the array based on the criteria specified in the callback
 * `function17(findKey)`: function that takes in an object and callback and returns the first key that meets the criteria specified in callback
